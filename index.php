@@ -1,6 +1,6 @@
 <?php
 
-$con= mysqli_connect('localhost','root','12345','admin');
+$con= mysqli_connect('localhost','',','');
 if(isset($_POST['submit'])){
 
     $name=$_POST['firstname'];
