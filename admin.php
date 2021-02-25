@@ -1,7 +1,7 @@
 <?php
 
 
-$con= mysqli_connect('localhost','root','12345','admin');
+$con= mysqli_connect('localhost','root','','admin');
 $res=mysqli_query($con,"select * from user");
 $count=mysqli_num_rows($res);
     if($count>0){
